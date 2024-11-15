@@ -35,7 +35,7 @@ if submit_button:
                 my_bar.progress(percent_complete + 1, text=progress_text)
             time.sleep(1)
             my_bar.empty()
-            st.switch_page("pages\Khistory.py")
+            st.switch_page("pages/Khistory.py")
             
             
         else:
